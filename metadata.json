@@ -1,0 +1,39 @@
+{
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat"
+    },
+    {
+      "operatingsystem": "CentOS"
+    },
+    {
+      "operatingsystem": "Scientific"
+    },
+    {
+      "operatingsystem": "SLES"
+    },
+    {
+      "operatingsystem": "Debian"
+    },
+    {
+      "operatingsystem": "Ubuntu"
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 3.0.0 < 5.0.0"
+    }
+  ],
+  "name": "dwerder-redis",
+  "version": "2.1.0",
+  "source": "https://github.com/echocat/puppet-redis.git",
+  "author": "Daniel Werdermann",
+  "license": "MPL-2.0",
+  "summary": "Install and configure redis and sentinel from repo or source",
+  "project_page": "https://github.com/echocat/puppet-redis",
+  "issues_url": "https://github.com/echocat/puppet-redis/issues",
+  "dependencies": [
+    {"name":"puppetlabs/stdlib","version_requirement":">= 4.6.0 < 5.0.0"}
+  ]
+}
